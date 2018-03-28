@@ -1,9 +1,6 @@
-﻿^Left::
-Send {Tab}{Tab}{Tab}
-Send {Left}
-Return
-
-^Right::
-Send {Tab}{Tab}{Tab}
-Send {Right}
-Return
+﻿#NoTrayIcon
+#IfWinActive, Netflix
+Control::
+SendInput, {Tab}{Tab}{Tab}
+return
+#IfWinActive

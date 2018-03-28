@@ -41,7 +41,7 @@ $b::
 $n::
 	key := SubStr(A_ThisHotkey,2)
 	SendInput,{%key% down}
-	Sleep 50
+	Sleep 75
 	SendInput,{%key% up}
 return
 $+&::
@@ -86,7 +86,7 @@ $+n::
 	key := SubStr(A_ThisHotkey,3)
 	SendInput,{ShiftDown}{%key% down}
 	SendInput,{ShiftUp}
-	Sleep 50
+	Sleep 75
 	SendInput,{%key% up}
 return
 $>!&::
@@ -103,7 +103,7 @@ $>!SC00A::
 $>!SC00B::
 	key := SubStr(A_ThisHotkey,3)
 	SendInput,{RAlt}{%key% down}
-	Sleep 50
+	Sleep 75
 	SendInput,{%key% up}
 return
 ;
